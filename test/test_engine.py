@@ -5,7 +5,7 @@ from engine.engine_type.willoughby_engine import WilloughbyEngine
 
 class TestCapuletEngine(unittest.TestCase):
     def test_engine_should_be_serviced(self):
-        current_mileage = 30001
+        current_mileage = 30002
         last_service_mileage = 0
         engine = CapuletEngine(current_mileage=current_mileage,last_service_mileage=last_service_mileage)
         self.assertTrue(engine.needs_service())
