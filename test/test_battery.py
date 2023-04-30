@@ -6,7 +6,7 @@ from datetime import datetime
 class TestNubbinBattery(unittest.TestCase):
     def test_battery_should_be_serviced(self):
         current_date = datetime(2024, 1, 1)
-        last_service_date = datetime(2017, 1, 1)
+        last_service_date = datetime(2016, 1, 1)
         battery = NubbinBattery(current_date, last_service_date)
         self.assertTrue(battery.needs_service())
 
