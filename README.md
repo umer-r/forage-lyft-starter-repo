@@ -1,2 +1,2 @@
 # Starter Repo
-This repo has everything you need to get started on the program, good luck!
+***This is a forked repo from [forage-lyft-starter-repo](https://github.com/vagabond-systems/forage-lyft-starter-repo.git) for my attempt at virtual internship programme by LYFT in backend-engineering-at-lyft***
